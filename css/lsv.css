@@ -1,0 +1,98 @@
+.lsvi-iconos {
+  width: 100%; }
+
+.lsvi-iconos h2 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 800;
+  font-size: 1.5em;
+  margin: 0.2em; }
+
+.lsvi-iconos h3 {
+  margin: 0;
+  padding: 0.5em;
+  border-bottom: 0.10em #BCBCBC solid;
+  display: inline-block;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 1em; }
+
+.lsvi-icono-persona {
+  width: 100%;
+  float: left;
+  padding: 0 2em;
+  text-align: center; }
+  .lsvi-icono-persona__border {
+    width: 11em;
+    margin: 0 auto;
+    border: 0.3em dotted #FFDE5D;
+    border-radius: 50%;
+    padding: 0.3em; }
+
+.lsvi-icono-persona img {
+  border-radius: 50%;
+  width: 10em;
+  border: 0.3em solid #FFDE5D; }
+
+.lsvi-iconos-contenido-wrap {
+  display: table;
+  width: 100%; }
+
+.lsvi-iconos-descripcion {
+  display: table-cell;
+  width: 50%;
+  padding: 2em; }
+  .lsvi-iconos-descripcion h2 {
+    text-align: center;
+    color: #1DACF6;
+    font-weight: 600;
+    margin-bottom: 1em; }
+  .lsvi-iconos-descripcion ul {
+    padding-left: 1.5em;
+    list-style: none;
+    font-size: 1.1em;
+    font-weight: 300;
+    margin: 0;
+    line-height: 1.2em; }
+  .lsvi-iconos-descripcion li {
+    position: relative;
+    margin-bottom: 1em; }
+    .lsvi-iconos-descripcion li::before {
+      content: "";
+      width: 1em;
+      height: 1em;
+      background: url("http://archivo.lasillavacia.com/archivos/historias/top/list-image2.svg");
+      background-size: cover;
+      display: inline-block;
+      position: absolute;
+      left: -1.5em; }
+
+.lsvi-icono-borde {
+  border-right: 0.10em #BCBCBC solid; }
+
+.lsvi-border-bottom {
+  border-top: 0.10em #BCBCBC solid;
+  margin: 0 0.5em 3em; }
+
+@media screen and (max-width: 768px) {
+  .lsvi-iconos-descripcion ul {
+    font-size: 0.95em; }
+  .lsvi-iconos-descripcion h2 {
+    font-size: 1.3em; }
+  .lsvi-border-bottom {
+    margin: 0 0.5em 1.5em; } }
+
+@media screen and (max-width: 480px) {
+  .lsvi-iconos-descripcion {
+    padding: 0.8em; }
+  .lsvi-icono-persona__border,
+  .lsvi-icono-persona img {
+    width: 8em; }
+  .lsvi-iconos-descripcion ul {
+    font-size: 0.85em; }
+  .lsvi-iconos h2 {
+    font-size: 1.2em; }
+  .lsvi-iconos h3 {
+    font-size: 0.9em; }
+  .lsvi-border-bottom {
+    margin: 0 0.5em 0.7em; } }
